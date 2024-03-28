@@ -1,0 +1,132 @@
+/* Roadmap main css */
+
+.roadmapline {
+    position: relative;
+    width: 30vh;
+
+    transition: ease width 1s;
+
+    min-height: 800px;
+    min-width: 280px;
+
+    height: 100%;
+    left: 80%;
+    right: 80%;
+    top: 10%;
+
+    overflow: hidden;
+
+    display: flexbox;
+}
+
+.roadmapline #circlething {
+    margin-left: auto; 
+    margin-right: auto;
+
+    height: 30vh;
+    width: inherit(-0.05%);
+
+    border: 3px solid #777cc588;
+    border-radius: 100%;
+    
+    filter: drop-shadow(1px 1px 1px rgba(54, 198, 223, 0.5));
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.roadmapline #circlething img {
+    position: absolute;
+    object-fit: contain;
+    width: 80%;
+    height: 80%;
+
+    left: 10%;
+    right: 10%;
+    top: 10%;
+    bottom: 10%;
+}
+
+.roadmapline .linebottom {
+    border: 2px dashed rgba(255, 0, 0, 0); 
+    
+    background: 
+    linear-gradient(#ccc,#ccc) padding-box, /*this is your grey background*/
+    linear-gradient(to bottom, #cbccc8 ,rgb(33, 37, 92)) border-box;
+
+    width: 0px; 
+    height: 79%;
+    
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 50%;
+} 
+
+@media only screen and (max-width: 1000px) {
+    .roadmapline {
+        left: 5%;
+        right: 0%;
+        margin: 0 auto;
+
+        top: 12%;
+        
+        border-radius: 25px;
+        background: 
+        linear-gradient(rgb(18, 21, 66),#cbccc8) padding-box, /*this is your grey background*/
+        linear-gradient(to bottom, rgb(18, 21, 66),#cbccc8) border-box;
+        box-shadow: 0 0 2px 2px rgb(18, 21, 66) inset,
+                    0 0 3px 3px rgb(18, 21, 66, 0.2);
+        width: 100%;
+    }
+
+    .roadmapline #circlething {
+        height: 230px;
+        width: 230px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .roadmapline {
+        border-radius: 25px;
+        background: 
+        linear-gradient(rgb(18, 21, 66),#cbccc8) padding-box, /*this is your grey background*/
+        linear-gradient(to bottom, rgb(18, 21, 66),#cbccc8) border-box;
+        box-shadow: 0 0 2px 2px rgb(18, 21, 66) inset,
+                    0 0 3px 3px rgb(18, 21, 66, 0.2);
+        width: 100%;
+    }
+}
+
+@media only screen and (max-height: 425px) {
+    .roadmapline {
+        display: flexbox;
+
+        height: 106%;
+        min-height: 922.2px;
+        min-width: 280px;
+    }
+    
+    .roadmapline #circlething img {
+        position: absolute;
+        object-fit: contain;
+        width: 80%;
+        height: 80%;
+    
+        left: 10%;
+        right: 10%;
+        top: 10%;
+        bottom: 10%;
+    }
+
+    .roadmapline #circlething {
+        height: 130px;
+        width: 130px;
+    }
+}
+
+
+@media only screen and (max-width: 425px){
+    .roadmapline {
+        left: 2%;
+        right: 0%;
+        top: 12.5%;
+    }
+}

@@ -1,0 +1,120 @@
+html {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow-x:hidden;
+    width: 100%;
+    min-width: 400px;
+    min-height: 800px;
+    height: 100vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(18, 21, 66)), to(#cbccc8)) fixed;
+}
+
+
+img { 
+    width: 55%;
+    height: 60%;
+}
+
+.App { 
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: url(../Images/logo.png);
+    background-position: center;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+
+    -webkit-animation: myfirst 5s ; /* Chrome, Safari, Opera */
+    animation: myfirst 5s ;
+  }
+
+  /* Chrome, Safari, Opera */
+  @-webkit-keyframes myfirst {
+    from {opacity: 0.2;}
+    to {opacity: 1;}
+  }
+
+  /* Standard syntax */
+  @keyframes myfirst {
+    from {opacity: 0.2;}
+    to {opacity: 1;}
+}
+/* Main sections organization */
+
+.navigation {
+    position: absolute;
+    width: 115%;
+    height: 20%;
+    right: -9.05%;
+    top: 0%;
+    z-index: 5;
+}
+
+.roadmap {
+    position: relative;
+
+    margin: 0 auto;
+
+    width: 85%;
+    height: 100vh;
+    min-height: 870px; 
+    display: block;
+    transition: ease all .5s;
+}
+
+.showbody {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.showbody hr {
+    position: relative;
+    width: 799px;
+
+    top: 31.5%;
+    left: 6%; 
+    right: 6%;
+
+    border: none;
+    height: 0%;
+    border-top: 5px dashed black;
+
+
+    background: #C4C4C4;
+    mix-blend-mode: darken;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    .roadmap {
+        left: -3%;
+        right: 3%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .roadmap {
+        left: -5%;
+        right: 3%;
+    }
+}

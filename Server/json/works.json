@@ -1,0 +1,48 @@
+{
+  "telus": {
+    "tasks": ["Work within a Big Data environment to transform sql down to 'models' in a new framework DBT. Had to translate the team over to DBT, as-well as onboarding to Github.",
+              " Lead various Data projects with clients; Understanding client data and requirements to then feed statsitics and analytics back to clients effectively.",
+              " Lead various internal/external development projects. Work on data automation + data feedback using DBT, Python, and Tableau."],
+    "soft": ["The team was a massive collaborative experience. My tasks encompass having to manage customer expectations + deliver on time. Internally I've had to onboard full teams to new tools and provide tutoring sessions.", 
+             " I've had to present to vital stakeholders on various projects, present to entire teams on developments; I've also got the opportunity to present my work to the University Of Toronto."],
+    "technical": ["Work with Google Cloud platforms; SQL, Bigquery, and Jinja. Alongside database tools, I got to work with Windows Batch Scripts for various automation tasks.", 
+                  " Worked with Python to complete data analyst tasks. Generally, I was a employee who had to wear a lot of different shoes, I've delved into machine learning, and various frameworks which I didn't mention here. This viability is something I'm extremely proud of and was happy to put into practice in this position."],
+    "objectives": ["Learn various database technologies and how a data 'Team' would mechanically function. In a sense, how does ingestion work? How does processing and subsequent presentation work?",
+                   " I hope to be exposed to an environment where I can grow and expand my capabilities."]
+  },
+
+  "transportcanadafull": {
+    "tasks": ["IT Customer Support and QA in a network environment; Analyzing business and client requirements. I had to work with major hardware/techinical rollouts, this included extensive work in collaboration with clients for distribution.",
+              " Self taught Powershell & VB to accelerate the troubleshooting process. Work with Visual Basic to provide statistics back on the emails received."],
+    "soft": ["Work within a team environment for optimal efficiency. Technical issues need to be resolved quickly and effectively. Without a proper team environment, it can be difficult to complete all these tasks.", 
+             " I grew my soft skills further within a collaborative team environment + customer management."],
+    "technical": ["Have a good fundemental understanding on how to work with modern computers and the Windows Operatating system. The ability to again adapt to the systems in place was a must, which I expanded on further in this role.", 
+                  " I had to work with Android and IOS devices aswell. An understanding of network concepts to decipher and debug technical difficulties clients would have."],
+    "objectives": ["Expand on my technical skills and gain more experience within the field of IT. Expand on my soft skills through interactions with clients whether through debugging or rollouts,",
+                   " and gain more experience within a collaborative encironment."]
+  },
+
+  "personalexperience": {
+    "tasks": ["These are tasks I set for myself. The general idea being to expose myself to as many sectors of the technical field to be able to adapt to many roles.", 
+              " I believe in the fundemental aspect of viability, and ever since I've entered this field I've followed this philosophy.", 
+              " I've worked from high level coding; Such as Python, Java, or C#. To lower level coding; Such as C, C++, or Rust for example. The projects I take on are generally random and follow the interest at that time. This can be ASM Assembly programs, to Game Engines, to complex Neural Network projects, or more complex systems."],
+    "soft": ["Be able to use the internet and sources effectively to learn. I've had to tutor a lot of students from various Universities through private sessions. Being able to translate what I understand onto paper and explain effectively is a skill that I always keep up to date and put a lot of value in."],
+    "technical": ["C#, C++, C, Assembly, Cobol, Jira, Python, Javascript, Java, and various other libraries and API's apply here. I've done a lot of side work in my own free time."],
+    "objectives": ["Again, my fundemental philosophy when it comes to development is the same of an effective construction contractor. A company has a new development, I want to be the person who can be capable enough to suggest and pick the right tool for the job + integrate the tool into the system. I put far more value on this aspect than singular specialization."]
+  },
+
+  "transportcanadafirst": {
+    "tasks": ["IT Customer Support and QA. Built an app which can map local drives to your network drives."],
+    "soft": ["This was my first environment before university where I had to work in an office environment within a collaborative team. This was a perfect first introduction and I grew heavily in my Soft Skills."],
+    "technical": ["Understand computers at a basic level to debug and help in various operations."],
+    "objectives": ["Gain a first exposure to an office work environment. Expand on my technical skills."]
+  },
+
+  "saabfirst": {
+    "tasks": ["Develop new features through Change Requests; Provide support on various software related issues by debugging the code itself. Also developed the Selenium framwork further.",
+              " Using my previous experience at Telus, Transport Canada in terms of soft skills + technical skills, I've applied myself to come up with and lead personal projects. Currently am leading a new project for middleware software which will streamline the testing workflow."],
+    "soft": ["The infrastructure/architecture is legacy and has a learning curve. However still, with collaboration within the team, I've managed in the first month to bring back value. At the same time, in an effort to lead my own internal projects, I've had to pitch + present my ideas which are approved and am currently working on."],
+    "technical": ["IIS infrastructure, SQL, Python, C#, ASP Core, Windows Forms, and various other tools."],
+    "objectives": ["Further progress my experience within the industry and apply my previous experience to bring back even more value."]
+  }
+}

@@ -1,0 +1,359 @@
+/* Thoughts Box Stylesheet */
+
+.tbencapsulate {
+    position: fixed;
+    margin: 0 auto;
+    left: 5%;
+    width: 100%; 
+    height: 75vh;
+    top: 12%;
+}
+
+.thoughtsbox {
+    position: absolute;
+    width: inherit;
+    height: 40%;
+
+    transition: top .3s ease-in-out;
+    -webkit-transition: top .3s ease-in-out;
+
+    max-height: 270px;
+    max-width: 650px;
+    min-width: 230px;
+    min-height: 250px;
+
+    z-index: 5;
+
+    margin: 0 auto;
+
+    top: 60%;
+    left: 1%;
+    right: 8.2%;
+
+    filter: drop-shadow(10px 10px 10px rgba(54, 198, 223, 0.973));
+    background: rgba(255, 255, 255, 0.9);
+    border: 3px solid #777cc588;
+    border-radius: 53px;
+}
+
+.thoughtsbox #buttonarea{
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+        
+    height: 60%;
+    width: 70%;
+
+    justify-content: space-around;
+    display: flex;
+    
+    margin-top: 130px;
+    margin-bottom: 2px;
+    z-index: 0;
+}
+
+.thoughtsbox #buttontooltip{
+    position: absolute;
+    left: 2.91%;
+    right: 2.41%;
+    top: 45.27%;
+    bottom: -40.16%;
+    z-index: 1;
+}
+
+.thoughtsbox #infocircle img{
+    width: auto;
+    height: auto;
+}
+
+.thoughtsbox #infocircle {
+    border-radius: 50%;
+    height: inherit;
+    width: 23%;
+    z-index: 3;
+
+    background: #ffffff;
+    border: 3px solid #777cc588;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.thoughtsbox #infocircle:hover {
+    background: rgba(43, 220, 226, 0.884);
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+
+.thoughtsbox #mhead {  
+    position: absolute;
+    height: 60.64px;
+    left: 1.11%;
+    right: 0%;
+    top: 5px;
+
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 62px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.thoughtsbox #mbody {  
+    position: absolute;
+    height: 60.64px;
+    left: 1.11%;
+    right: 0%;
+    top: 75px;
+
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    overflow: auto;
+
+    color: #000000;
+}
+
+/* Tool-box */
+
+.tooltipbox {
+    position: absolute;
+    width: 70%;
+    height: 40%;
+
+    max-width: 662px;
+    max-height: 400px;
+
+    margin: 0 auto;
+    top: 15%;
+    left: 1%;
+    right: 8.2%;
+
+    background: rgba(255, 255, 255, 0.9);
+    filter: drop-shadow(10px 10px 10px rgba(54, 198, 223, 0.973));
+    border: 2px solid #5d6e62;
+
+    opacity: 1;
+
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+     -ms-animation: fadein 1s; /* Internet Explorer */
+      -o-animation: fadein 1s; /* Opera < 12.1 */
+         animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.tooltipbox #desctext {
+    position: absolute;
+    width: inherit*0.01;
+    height: 234.17px;
+    left: 10.86px;
+    top: 35px;
+
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+
+    transform: rotate(-0.25deg);
+}
+
+.tooltipbox #desctitle {
+    position: relative;
+    width: 380px;
+    height: 60px;
+
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 25px;
+
+    /* identical to box height */
+    text-align: center;
+    margin: auto;
+
+    color: #000000;
+}
+
+.tooltipbox #exitline {
+    position: absolute;
+    margin: auto;
+    bottom: -5%;
+    right: 20%;
+}
+
+.tooltipboxoverlay {
+    position: fixed; /* Sit on top of the page content */
+    background-color: rgba(0, 0, 0, 0); /* Black background with opacity */
+    right: -100%;
+    bottom: -200%;
+    height: 500%;
+    width: 500%;
+    overflow: hidden;
+    z-index: 999999; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .tbencapsulate {
+        top: 20%;
+    }
+
+    .thoughtsbox {
+        left: 0%;
+        right: 0%;
+        top: 57%;
+        height: 30%;
+        filter: drop-shadow(10px 10px 10px rgba(54, 198, 223, 0));
+        min-height: 100px;
+    }
+
+    .thoughtsbox #buttonarea{
+        height: 65%;
+        width: 80%;
+    }
+
+    .tooltipbox{
+        left: 0%;
+        width: 100%;
+    }
+
+    .tooltipbox #desctext {
+        font-size: 13px;
+    }
+    
+    .tooltipbox #desctitle {
+        font-size: 20px;
+        
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align:inherit;
+    }
+
+    .thoughtsbox #mhead {  
+        font-size: 25px;
+    }
+    
+    .thoughtsbox #mbody {  
+        font-size: 11px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .thoughtsbox #buttonarea{
+        height: 57%;
+        width: 95%;
+        top: 55%;
+        margin-top: auto;
+    }
+
+    .thoughtsbox #infocircle img{
+        width: 75%;
+        height: 75%;
+    }
+
+    .tooltipbox #desctext {
+        font-size: 20px;
+    }
+    
+    .tooltipbox #desctitle {
+        font-size: 20px;
+    }
+
+    .thoughtsbox #mhead {  
+        font-size: 25px;
+    }
+    
+    .thoughtsbox #mbody {  
+        font-size: 11px;
+        line-height: 12px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+
+    .thoughtsbox {
+        position: absolute;
+        width: 98%;
+        height: 38%;
+        min-height: 100px;
+
+        top: 68%;
+        left: -6%;
+        right: 0%;
+
+        filter: drop-shadow(10px 10px 10px rgba(54, 198, 223, 0));
+    }
+
+    .tooltipbox{
+        top: 23%;
+        left: -6%;
+        right: 0%;
+        width: 100%;
+    }
+
+    .tooltipbox #desctext {
+        font-size: 13px;
+    }
+    
+    .tooltipbox #desctitle {
+        font-size: 20px;
+        
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align:inherit;
+    }
+
+    .thoughtsbox #mhead {  
+        line-height: 10px;
+        font-size: 19px;
+        height: 20px;
+    }
+    
+    .thoughtsbox #mbody {  
+        font-size: 12px;
+        line-height: 12px;
+        top: 40px;
+    }
+}

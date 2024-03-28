@@ -1,0 +1,33 @@
+{
+  "ubcgamejam": {
+    "tasks": ["This game jam lasted 48 hours. Co-operating within a team I participated mainly mechnical programming.",
+              " I have to work within a repository with the team and collaborate in testing to complete the appropriate tasks."],
+    "soft": ["Working within a team was a great experience. I've grown in my technical collaborative capabilities within such an environment.",
+             " Usually as programmers, you're working on projects alone, having to share your work, however working within a team where we had to co-op within a repository and work together was a great experience."],
+    "technical": ["Everything was complete using Unity C# in the monodevelop IDE."],
+    "objectives": ["I wanted to experience working under pressure, this would 1) Put my skills to the test to adapt to new environments 2)", 
+                   "Build my soft skills further in terms of working in a collaborative environment."]
+  },
+  "rollaball": {
+    "tasks": ["Build a fully functional application for Android using Unity. Package the project into an APK and used Google Play Console to properly publish.", 
+              "Control a team of members who would either brainstorm, or provide my assistance in areas where I wasn't as competent such as the artistic ends of drawing out the video game assets."],
+    "soft": ["I had to essentially 'hire' and get other students on board to assist me in making the video game. I did all the programming, while others helped me with art, sound, etc.",
+             "This was one of my first introductions to a true collaborative environment before university."],
+    "technical": ["Everything was completed using C# Unity in the Monodevelop IDE. I had to package my builds into an APK and publish to the Google Play Console."],
+    "objectives": ["To fully publish an Android application; Gather and use resources outside my own skills to delegate tasks to others for full application completion."]
+  },
+  "nonmultilayernetwork": {
+    "tasks": ["I wanted to without the help of a library or any higher level API, create my own very simple neural network. To this effect, it's a learning project in terms of understanding neural networks."],
+    "soft": ["This was a solo project, however again my ability to learn and interact with online resources was put into use. Even though it may not seem important on the surface,",
+             "being able to work on something unfamiliar without a lot of external investing is a skill in of itself; This is a skill I foster and allows me to be extremely viable in the work I do."],
+    "technical": ["This was completed in C++ and just using Visual Studio IDE."],
+    "objectives": ["To gain a basic fundemental understanding of machine networks, this small step would furhter lead to a better understanding if I come across any other tasks in this field (Or personal projects)."]
+  },
+  "fullgrassfire": {
+    "tasks": ["Modify and develop an AI traversing algorithm to achieve a full traversal. This was part of a higher level course in university to demonstrate the understanding of the algorithms taught.", 
+              "With my team member I've decided to modify the Grassfire algorithm to do a full traversal of a graph."],
+    "soft": "Had to collaborate with my team member.",
+    "technical": "Completed in Unity using the monodevelop IDE and C#. This allowed for really easy demonstration and presentation.",
+    "objectives": "Be able to complete a full traversal by modifying the Grassfire algorithm."
+  }
+}

@@ -1,0 +1,61 @@
+.homepage {
+    position: absolute;
+    width: 50%; 
+    height: 50%;
+
+    top: 65%;
+
+    left: 25%;
+    right: 25%;
+
+    color: #F0ECC2;
+    text-shadow: 0 0 20px #75735F, 0 0 20px #75735F;
+}
+
+.homepage h1 {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 110px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.homepage input {
+    position: absolute;
+    background: none;
+    width: 90px;
+    height: 60px;
+    border-radius: 53px;
+    left: 46%;
+    right: 46%;
+
+    color: #F0ECC2;
+    background: rgb(117, 117, 117);
+}
+
+@media only screen and (max-width: 750px) {
+    .homepage {
+        left: 27%;
+        right: 27%;
+    }
+
+    .homepage h1 {
+        font-size: 25px;
+        line-height: 50px;
+    }
+
+    .homepage input {
+        left: 37%;
+        right: 37%;
+    }
+    
+}
+
+@media only screen and (max-width: 550px) {
+    .homepage input {
+        left: 27%;
+        right: 27%;
+    }
+}
