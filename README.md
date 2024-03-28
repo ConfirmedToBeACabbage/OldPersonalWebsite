@@ -9,6 +9,6 @@ which is required for this to work. It's very simple reverse proxy configuration
 To setup this, simply go into /Server and /Website and do npm install --force. I left this website alone for a while now and I didn't bother to go through the dependency hell that it is. It's running on pure faith. 
 
 ## Website Picture
-[![An old rock in the desert](/Pictures/c1.png)]
-[![An old rock in the desert](/Pictures/c2.png)]
-[![An old rock in the desert](/Pictures/c3.png)]
+![An old rock in the desert](/Pictures/c1.png)
+![An old rock in the desert](/Pictures/c2.png)
+![An old rock in the desert](/Pictures/c3.png)
